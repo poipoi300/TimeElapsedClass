@@ -4,7 +4,7 @@ Keep track of code execution times with this class!
 //Author: poipoi300
 //Purpose: Code speed analysis
 //Date: 2021-04-11
-//Version: 1.01
+//Version: 1.02
 
 Description: 
 I made this object following a recommendation for code optimization I had received.
@@ -19,3 +19,6 @@ If the number of possible valid inputs is very high, lookup tables are superior.
  
 If there are any bugs or the object doesn't behave as expected, please report an issue!
 
+I realized There is already an object in C# called stopwatch that you can get from >using System.Diagnostics;
+Oh well, it was fun doing this and I'll still use it for its' intended purpose. I'm also still open to improving 
+this class with additional functionalities and/or potential bug fixes.

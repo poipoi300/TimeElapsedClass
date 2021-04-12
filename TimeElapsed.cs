@@ -30,16 +30,16 @@ namespace Timer
         }
         public void End()
         {
-            if (paused)
-            {
-                int milliseconds = (int)currentTotal.TotalMilliseconds;
-                Console.WriteLine("Time elapsed from start is: " + milliseconds + "ms");
-            }
-            else
+            if (!paused)
             {
                 timeEnd = DateTime.Now;
                 TimeSpan difference = timeEnd - timeStart + currentTotal;
                 int milliseconds = (int)difference.TotalMilliseconds;
+                Console.WriteLine("Time elapsed from start is: " + milliseconds + "ms");    
+            }
+            else
+            {
+                int milliseconds = (int)currentTotal.TotalMilliseconds;
                 Console.WriteLine("Time elapsed from start is: " + milliseconds + "ms");
             }
         }

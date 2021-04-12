@@ -4,7 +4,7 @@ Keep track of code execution times with this class!
 //Author: poipoi300
 //Purpose: Code speed analysis
 //Date: 2021-04-11
-//Version: 1.0
+//Version: 1.01
 
 Description: 
 I made this object following a recommendation for code optimization I had received.

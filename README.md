@@ -1,12 +1,14 @@
+---
+Author: poipoi300
+Purpose: Code speed analysis
+Date: 2021-04-11
+Version: 1.02
+---
+
 # TimeElapsedClass
-Keep track of code execution times with this class!
+##### Keep track of code execution times with this class!
 
-//Author: poipoi300
-//Purpose: Code speed analysis
-//Date: 2021-04-11
-//Version: 1.02
-
-Description: 
+## Description 
 I made this object following a recommendation for code optimization I had received.
 I really wasn't sure if what I was proposed was actually faster in terms of execution times, 
 so I made an object that could keep track of that for me. (+ some neat features for real-world use c:)
